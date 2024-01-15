@@ -168,7 +168,7 @@ fun UnitConverter(){
                         text = { Text("Centimeters") },
                         onClick = {
                             oExpanded = false
-                            outputUnit = "Milimeters"
+                            outputUnit = "Centimeters"
                             oConversionFactor.value = 0.01
                             converterUnits()
                         }
